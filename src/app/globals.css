@@ -25,3 +25,18 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+.clip{
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
+.biomed{
+clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);}
+
+
+.dynamic-text {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  font-weight: 600;
+  font-size: 24px;
+}
+
