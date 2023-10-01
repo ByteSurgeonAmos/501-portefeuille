@@ -4,7 +4,7 @@ import React from "react";
 export const Navbar = () => {
   return (
     <div>
-      <div className="w-full h-[20%] flex items-center  justify-between border-b  border-b-red-500  p-3">
+      <div className="w-full h-[8%] flex items-center  blur-bg   fixed top-0 z-10 justify-between border-b  border-b-red-500  p-3">
         <div className=" text-2xl font-bold">
           Amos D<span className="text-red-500">eV</span>
         </div>

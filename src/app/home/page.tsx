@@ -1,5 +1,6 @@
 import React from "react";
 import DynamicText from "@/utils/DynamicText";
+import Image from "next/image";
 
 const Home = () => {
   return (
@@ -16,6 +17,14 @@ const Home = () => {
             Get in touch
           </button>
         </div>
+      </div>
+      <div className=" flex justify-end  pr-[3rem]">
+        <Image
+          src="/undraw-portfolio-2.svg"
+          alt="portfolio-img"
+          width={300}
+          height={300}
+        />
       </div>
     </div>
   );

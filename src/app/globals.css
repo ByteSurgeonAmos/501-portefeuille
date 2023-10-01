@@ -40,3 +40,42 @@ clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);}
   font-size: 24px;
 }
 
+.cursor {
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+
+  0%,
+  100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+}
+
+.blur-bg {
+  backdrop-filter: blur(5px); 
+    background-color: rgba(0, 0, 0, 0.8); 
+}
+@keyframes wiggle {
+  0% {
+    transform: translateX(0);
+  }
+
+  50% {
+    transform: translateX(5px);
+    /* Adjust the distance the border moves */
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.animate-wiggle {
+  animation: wiggle 2s linear infinite;
+  /* Adjust the animation duration and timing function as needed */
+}
