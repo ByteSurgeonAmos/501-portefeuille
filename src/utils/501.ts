@@ -17,7 +17,7 @@ export const data: Projects[] = [
   {
     project: "Music Player",
     link: "https://github.com/AMO15310/music-player-react-ts",
-    technologies_used: "react, Typescript, Tailwind",
+    technologies_used: "React, Typescript, Tailwind",
     description:
       "Just a regular music player - STREAM. Play your favourite song",
     private: false,
@@ -33,7 +33,7 @@ export const data: Projects[] = [
   {
     project: "Order-It Admin",
     link: "https://github.com/AMO15310",
-    technologies_used: "React,Tailwind css",
+    technologies_used: "React,Tailwind css Express Node",
     description: "Admin panel for an ecommerce",
     private: true,
   },
