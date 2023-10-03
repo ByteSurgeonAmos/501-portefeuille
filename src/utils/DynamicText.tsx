@@ -38,7 +38,7 @@ const DynamicText: React.FC = () => {
 
   return (
     <div className="dynamic-text sm:absolute ">
-      I'm <span className="text-red-500"> {currentText}</span>
+      I&apos;m <span className="text-red-500"> {currentText}</span>
       <span className="cursor text-red-500">|</span>
       <br />
       <div className=" mt-2">This is my portfolio.</div>

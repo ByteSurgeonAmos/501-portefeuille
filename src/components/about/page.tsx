@@ -5,7 +5,7 @@ export const About = () => {
   return (
     <div className=" gap-[6rem]" id="about">
       <p className="text-center mt-[15%] text-xl font-semibold">
-        What i'm about
+        What i&apos;m about
       </p>
       <div className="flex flex-col sm:flex-row justify-around">
         <div className=" w-fit  mt-[10%] pl-[4rem] ">
@@ -30,12 +30,14 @@ export const About = () => {
       </div>
       <div className="mt-[10%] w-full text-center flex flex-wrap justify-center">
         <p className="w-[50%] text-xl">
-          "I'm<span className="text-red-500"> Amos Wachira</span> , a passionate
+          I&apos;m<span className="text-red-500"> Amos Wachira</span> , a
+          passionate
           <span className="text-red-500"> Full Stack Developer</span> and
           <span className="text-red-500"> Biomedical Engineer.</span> I strive
           to merge my coding skills and biomedical knowledge to innovate and
           improve healthcare through technology. With a commitment to
-          excellence, I'm driven to make a lasting impact in both industries."
+          excellence, I&apos;m driven to make a lasting impact in both
+          industries.
         </p>
       </div>
     </div>

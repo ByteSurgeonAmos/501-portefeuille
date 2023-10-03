@@ -11,7 +11,7 @@ const Contact = () => {
       <div className="sm:flex justify-between p-5 mt-[5%] ">
         <div className="">
           <p className=" text-xl font-semibold">
-            Let's keep the conversation flowing!
+            Let &apos;s keep the conversation flowing!
           </p>
           <p className=" text-xl font-semibold mt-5">Get in touch today</p>
           <div className=" flex sm:block justify-evenly">
