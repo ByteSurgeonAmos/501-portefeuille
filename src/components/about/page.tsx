@@ -3,7 +3,10 @@ import React from "react";
 
 export const About = () => {
   return (
-    <div className=" gap-[6rem]">
+    <div className=" gap-[6rem]" id="about">
+      <p className="text-center mt-[15%] text-xl font-semibold">
+        What i'm about
+      </p>
       <div className="flex flex-col sm:flex-row justify-around">
         <div className=" w-fit  mt-[10%] pl-[4rem] ">
           <img

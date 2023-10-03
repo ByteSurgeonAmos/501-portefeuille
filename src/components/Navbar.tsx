@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import Link from "next/link";
 
 export const Navbar = () => {
   return (
@@ -12,11 +13,21 @@ export const Navbar = () => {
           <Image src="/hamburger.svg" alt="hamburger" width={50} height={50} />
         </div>
         <div className=" hidden sm:flex gap-8 pr-3 text-lg font-bold">
-          <div className="">HOME</div>
-          <div className="">ABOUT</div>
-          <div className="">SKILLS</div>
-          <div className="">PROJECTS</div>
-          <div className="">CONTACT</div>
+          <Link href="#home">
+            <div className="">HOME</div>
+          </Link>
+          <Link href="#about">
+            <div className="">ABOUT</div>
+          </Link>
+          <Link href="#skills">
+            <div className="">SKILLS</div>
+          </Link>
+          <Link href="#projects">
+            <div className="">PROJECTS</div>
+          </Link>
+          <Link href="#contact">
+            <div className="">CONTACT</div>
+          </Link>
           <div className="">VITAE</div>
         </div>
       </div>

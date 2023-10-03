@@ -2,8 +2,8 @@ import React from "react";
 
 const Skills = () => {
   return (
-    <div className=" ">
-      <div className="mt-[12%] text-center relative text-2xl font-semibold flex justify-center ">
+    <div id="skills">
+      <div className="mt-[35%] text-center relative text-2xl font-semibold flex justify-center ">
         <span className="relative flex flex-col">
           <p>My skill set</p>
           <span className="border-red-500 border-b-2 absolute w-full animate-wiggle mt-8"></span>
