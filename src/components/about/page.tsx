@@ -32,8 +32,9 @@ export const About = () => {
         <p className="w-[50%] text-xl">
           I&apos;m<span className="text-red-500"> Amos Wachira</span> , a
           passionate
-          <span className="text-red-500"> Full Stack Developer</span> and
-          <span className="text-red-500"> Biomedical Engineer.</span> I strive
+          <span className="text-red-500"> Full Stack Developer,</span>
+          <span className="text-red-500"> Biomedical Engineer.</span> and a{" "}
+          <span className="text-red-500"> Blockchain Developer.</span> I strive
           to merge my coding skills and biomedical knowledge to innovate and
           improve healthcare through technology. With a commitment to
           excellence, I&apos;m driven to make a lasting impact in both

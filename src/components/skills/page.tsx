@@ -1,9 +1,10 @@
 import React from "react";
+import ProgrammingLanguagesChart from "../Charts/chart";
 
 const Skills = () => {
   return (
     <div id="skills">
-      <div className="mt-[35%] text-center relative text-2xl font-semibold flex justify-center ">
+      <div className="mt-[5%] text-center relative text-2xl font-semibold flex justify-center ">
         <span className="relative flex flex-col">
           <p>My skill set</p>
           <span className="border-red-500 border-b-2 absolute w-full animate-wiggle mt-8"></span>

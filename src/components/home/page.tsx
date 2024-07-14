@@ -8,7 +8,7 @@ const Home = () => {
     <div id="home">
       <div className=" sm:flex   mx-auto sm:mt-[10%] mt-[18%] ">
         <div className=" hidden sm:flex   mt-[10%] font-extrabold bg-slate-950 clip text-9xl border-t border-red-500 sm:w-fit sm:p-[5rem] sm:ml-4  ">
-          501
+          A...
         </div>
         <div className="sm:ml-[4rem] sm:block flex justify-center mt-[10%] text-2xl overflow-clip sm:overflow-x-auto">
           <DynamicText />

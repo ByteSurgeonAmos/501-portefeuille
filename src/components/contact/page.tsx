@@ -42,7 +42,7 @@ const Contact = () => {
               <p className="mt-7 text-red-500 hidden sm:block">--- X</p>
             </div>
             <div className="flex gap-4">
-              <Link href="https://github.com/AMO15310">
+              <Link href="https://github.com/ByteSurgeonAmos">
                 <Image
                   className="mt-5"
                   src="/github-1.svg"
